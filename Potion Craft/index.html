@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotionsCraft</title>
+    <link rel="stylesheet" href="PotionsCraft.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="Potion_of_Luck_JE3.png" type="image/x-icon">
+</head>
+<body>
+        <div class="stars"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+<header id="header2">
+    <div class="headertext" id="headertext1">
+        <div class="logocontainer" id="logo">
+            <a href="no.html"><img src="Glass_Bottle_JE2_BE2.webp" id="logoday" alt="PotionsCraft Logo" class="logo"></a>
+        </div>
+        <div class="title">
+        <h1>PotionsCraft</h1>
+        </div>
+    </div>
+    <div class="search-box">
+        <div class="box-input">
+            <div class="input">
+                <span>
+                <input type="text" placeholder="   пошук..."></span>
+        </div>
+        </div>
+        <div class="box-button">
+        <div class="button"><span>
+            <svg fill="#000000" width="75px" height="75px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>search</title> <path d="M21.343 18.556l4.243-4.243-11.314-11.313-11.314 11.314 11.314 11.314 4.243-4.243 5.657 5.657 2.828-2.829-5.657-5.657zM14.272 19.971l-5.657-5.657 5.657-5.657 5.657 5.657-5.657 5.657z"></path> </g></svg>
+        </span>
+    </div>
+    </div>
+    </div>
+    <div class="useractions" id="authorization">
+        <a href="authorization.html" aria-label="авторизація">Авторизація</a>
+    </div>
+    <nav class="navigation-menu">
+        <ul class="header-buttons">
+            <li>
+                <div class="box-button">
+                    <div class="button"><span>Зачарування</span></div>
+                </div>
+            </li>
+            <li>
+                <label class="switch">
+                    <input type="checkbox" id="themeswitcher">
+                    <span class="slider"></span>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAQABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIG/8QAIxAAAgIABQQDAAAAAAAAAAAAAQMCBAAREiExBUFRcROBsf/EABQBAQAAAAAAAAAAAAAAAAAAAAX/xAAWEQADAAAAAAAAAAAAAAAAAAAAEiL/2gAMAwEAAhEDEQA/AMBTp03dNglMVuttjqnKQ2UPOfntkOThbqVVUJ12BKnogZQZpy+Ucc8knwePWJrWqyqEHVmrTahEBqpbBoAH1n635wt3a9mjN1p8X2pw0qVEbKB/CO/c4OphSVP/2Q==" class="off">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAQABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIEBf/EACMQAAEDAwQDAQEAAAAAAAAAAAQBAgUDESEAEjFBBlFhMkL/xAAUAQEAAAAAAAAAAAAAAAAAAAAF/8QAGBEAAwEBAAAAAAAAAAAAAAAAABIiMUH/2gAMAwEAAhEDEQA/AM+Bg4mS8coRccMOdNG01qVyH/kRvHPKKmMdr8uujPwUTG+NkRpw1AKWCbvHKa2zTGphc9u9p0q+rLqeMl4kSCGkYgtoE0HTahIz3bWGNanPrdyqWzn7p5ibh5CArnyZNMyVLpK0QSkt2BNXtVX+7ol1wuLJiyaHt+6Kyp//2Q==" class="on">
+                </label>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+<div class="body2" id="body21">
+    <h1>Примітка</h1>
+    <blockquote>Всі механіки із зіллями відбуваються у <b>варильній стійці</b></blockquote>
+    <blockquote>Для всіх зілля основою є <b>"незграбне"</b> зілля, <b>окрім зілля слабкості</b> для якого основа це звичайна <b>пляшка з водою</b></blockquote> 
+    <blockquote>Щоб покращити рівень зілля в Minecraft використовуйте <b>світляний пил (світловідня)</b> для збільшення сили ефекту, додаючи їх до готового базового зілля. Збільшення рівня зілля робить його сильнішим</blockquote>
+    <blockquote>А для того щоб подовжити рівень зілля в Minecraft, використовуйте <b>редстоун</b> для збільшення тривалості ефекту, але редстоун робить робить нижчим рівень зілля</blockquote>
+    <blockquote>Також в ігрі існує <b>взривне зілля</b>. Для того щоб його зробити вам потрібно додати <b>порох</b> до звичайного зілля </blockquote>
+    <blockquote>Самий непопулярний тип зілля є <b>"туманним"</b>. Для його крафту треба додати <b>зілля драконячого дихання</b></blockquote>
+    <h2>Зілля та її види</h2>
+    <h3>Зілля з позитивними ефектами</h3>
+    <div class="potions">
+    <div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Regeneration_JE2_BE2.png">
+<img src="Regeneration_JE3_BE2.png">
+<p>Зілля відновлення</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Відновлює 18/36 <div class="hearts"><img src="Heart_29.webp"></div> 9/18) здоров'я з часом, 1 <div class="hearts"><img src="Heart_29.webp">)</div>кожні 50 тиків (2,5 секунди).</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Swiftness_JE3.png">
+<img src="Speed_JE3_BE2.png">
+<p>Зілля швидкості</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Збільшує швидкість і дальність стрибка на 20%/40%, а також збільшує поле зору (спринт зі швидкістю 6,6/8 метра за секунду).</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Fire_Resistance_JE3.png">
+<img src="Fire_Resistance_JE2_BE2.png">
+<p>Зілля вогнестійкості</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Надає імунітет до всіх пошкоджень, пов'язаних з нагріванням.</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<a href="https://matias.ma/nsfw/"><img src="Potion_of_Healing_JE2_BE2.png"></a>
+<img src="Instant_Health_JE1.png">
+<p>Зілля сцілення</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:Відновлює 4/8 одиниць здоров'я (подвоюється з кожним додатковим рівнем).<div class="hearts"><img src="Heart_29.webp"><img src="Heart_29.webp">/<img src="Heart_29.webp"><img src="Heart_29.webp"><img src="Heart_29.webp"><img src="Heart_29.webp">)</div> </b></p>
+<p><b>Тривалість</b>Миттєво</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Night_Vision_JE3.png">
+<img src="Night_Vision_JE2_BE2.png">
+<p>Зілля нічного бачення</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Візуально освітлює все до рівня освітлення 15, освітлює воду блакитним блиском, освітлює лаву помаранчевим блиском (інші гравці не бачать посиленого освітлення без цього ефекту).</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Strength_JE3.png">
+<img src="Strength_JE3_BE2.png">
+<p>Зілля сили</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Збільшує шкоду ближнього бою на 3.‌ [ Тільки Java Edition ] Збільшує шкоду ближнього бою на 30% від базової шкоди та 1.‌ [ Тільки Bedrock Edition ] <div class="hearts"><img src="Heart_29.webp"></div> <div class="hearts"><img src="Half_Heart_29.webp">)</div>
+<div class="hearts"><img src="Half_Heart_29.webp"></div></b></p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Leaping_JE3.png">
+<img src="Jump_Boost_JE2_BE2.png">
+<p>Зілля стрибучості</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Дозволяє гравцеві стрибати на 1 ⁄ 2/до 2 1 / 2 блоки вище та зменшує шкоду/ще більше від падіння.</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Water_Breathing_JE3.png">
+<img src="Water_Breathing_JE2_BE2.png">
+<p>Зілля водного дихання</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Дозволяє сутності плавати, не тонучи та не потребуючи спливання на поверхню для дихання. Киснева шкала не зменшується під водою.</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Invisibility_JE3.png">
+<a href="heroine.html"><img src="Invisibility_JE2_BE2.png"></a>
+<p>Зілля невидимості</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Змушує гравця зникнути з поля зору. Моби можуть виявляти та відстежувати гравця лише на близькій відстані, хоча дальність збільшується, коли гравець одягає броню. Версія сплеш робить мобів або інших гравців невидимими. Деякі предмети залишаються видимими.</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Slow_Falling_JE4_BE3.png">
+<img src="Slow_Falling_JE1_BE1.png">
+<p>Зілля повільного падіння</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Моб/гравець падає набагато повільніше, а шкода від удару об землю зводиться до нуля. Стає можливим стрибок майже на 6 блоків, а сільськогосподарські угіддя не зазнають впливу від падіння гравця на них.</p>
+<p><b>Тривалість</b>3:00/8:00</p>
+</div>
+</div>
+<h3>Зілля з негативними ефектами</h3>
+<div class="potions">
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Poison_JE3.png">
+<img src="Poison_JE3_BE2.png">
+<p>Зілля отруєння</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:Завдає до 36/72 <div class="hearts"><img src="Poisoned_Heart_29.webp"></div> 18/36) ‌ [ лише JE ] або 96 <div class="hearts"><img src="Poisoned_Heart_29.webp"></div> 48) ‌ [ лише BE ] одиниць шкоди з часом, але не знижує здоров'я нижче 1 <div class="hearts"><img src="Half_Heart_29.webp"></div></b></p>
+<p><b>Тривалість</b>0:45/1:30</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Weakness_JE2_BE2.png">
+<img src="Weakness_JE3_BE2.png">
+<p>Зілля слабкості</p>
+<p><b>База</b>пляшка з водою</p>
+<p><b>Ефект:</b>Зменшує шкоду в ближньому бою на 4.‌ [ Тільки Java Edition ] Зменшує шкоду в ближньому бою на 20% від базової шкоди та 0,5 × 0,25.‌ [ Тільки Bedrock Edition ]<div class="hearts"><img src="Heart_29.webp"><img src="Heart_29.webp">) (<img src="Heart_29.webp">)</div></b></p>
+<p><b>Тривалість</b>1:30/4:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Slowness_JE3.webp">
+<img src="Slowness_JE4.png">
+<p>Зілля заповільнення</p>
+<p>Зілля повільного падіння</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Уповільнює гравців та мобів на 15%/60%, приблизно до 4,75/2,25 блоків за секунду під час спринту.</p>
+<p><b>Тривалість</b>1:30/4:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Harming_JE3.png">
+<img src="Instant_Damage_JE1.png">
+<p>Зілля шкоди</p>
+<p>Зілля отруєння</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:Пошкодження 6/12 <div class="hearts"><img src="Heart_29.webp"> 3/6)</div> (подвоюється з кожним наступним рівнем).</b></p>
+<p><b>Тривалість</b>Миттєво</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Infestation_JE1_BE1.png">
+<img src="Infested_JE1_BE1.png">
+<p>Зілля зараження</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Якщо моб має ефект Зараження, він має 10% шанс породити 1–3 чешуйниць , коли отримує травму. Кількість та шанс появи чешуйниць не залежать від рівня сили зілля.</p>
+<p><b>Тривалість</b>3:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Oozing_JE1_BE1.png">
+<img src="Oozing_JE1_BE1.png">
+<p>Зілля сочання</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Якщо моб має ефект "Сочіння", то після смерті він породжує двох слизняків середнього розміру . Кількість та розмір слизняків, що з'являються, не залежать від рівня сили зілля</p>
+<p><b>Тривалість</b>3:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Weaving_JE1_BE1.png">
+<img src="Weaving_JE1_BE1.png">
+<p>Зілля плетіння</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Якщо моб має ефект Плетіння, вплив павутиння на його швидкість зменшується, і він створює 2–3 павутини після смерті. Кількість павутини не залежить від рівня сили зілля.</p>
+<p><b>Тривалість</b>3:00</p>
+</div>
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_Wind_Charging_JE1_BE1.png">
+<img src="Wind_Charged_JE1_BE1.png">
+<p>Зілля вітряного заряду</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Якщо моб має ефект «Заряд вітру», то після смерті він генерує вибух вітру, подібний до того, що створюється зарядами вітру . Інтенсивність цього вибуху не залежить від рівня сили зілля.</p>
+<p><b>Тривалість</b>3:00</p>
+</div>
+</div>
+<h3>Зілля зi змішаними ефектами</h3>
+<div class="potions">
+<div class="card">
+<video class="card-video" muted loop>
+<source src="document_5474399662335097943.mp4" type="video/mp4">
+  </video>
+<img src="Potion_of_the_Turtle_Master_JE3.png">
+<img src="Slowness_JE4.png">
+<img src="Resistance_JE2_BE2.png">
+<p>Зілля майстра черепах</p>
+<p><b>База</b>Моторошне зілля</p>
+<p><b>Ефект:</b>Уповільнює гравців та мобів на 60%/90%, приблизно до 2,25/0,5625 блоків за секунду під час спринту, та зменшує отриману ними шкоду на 60%/80%.</p>
+<p><b>Тривалість</b>3:00</p>
+</div>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
