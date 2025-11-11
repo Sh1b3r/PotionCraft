@@ -1,1 +1,1 @@
-# PotionCraft-2
+# PotionCraft
